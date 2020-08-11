@@ -82,6 +82,10 @@ As the result of submit user might receive the message:
 
 
 ![Result](/images/8.png)
+
+
+Resourses:
+https://metanit.com/sharp/aspnet5/9.1.php
  
 
 
