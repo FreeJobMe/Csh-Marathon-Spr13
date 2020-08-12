@@ -23,9 +23,9 @@ The page contains navigation bars  that redirect the user to the appropriate vie
 3.	View ‘Greetings’:
 ![Greetings](/images/3.png)
  
-a)	Messages are placed as variables;
-b)	Use DateTime methods;
-c)	Use branching to send the greeting (evening or morning).
+   - Messages are placed as variables;
+   - Use DateTime methods;
+   -	Use branching to send the greeting (evening or morning).
 
 
 
@@ -33,9 +33,9 @@ c)	Use branching to send the greeting (evening or morning).
 4.	View ‘ProductInfo’
 ![ProductInfo](/images/4.png)
  
-a)	Create the class Product with properties: Name (string), Price (double)
-b)	Use this class to create the list of products just within the view.
-c)	Use loop to output the information on the page.
+   - Create the class Product with properties: Name (string), Price (double)
+   -	Use this class to create the list of products just within the view.
+   -	Use loop to output the information on the page.
 
 
 
@@ -59,11 +59,11 @@ View contains partial view ‘TimeToBuy’
 
 7.	Partial view ‘TimeToBuy’ uses @inject.
 You have to:
-a)	Create the folder Services;
-b)	define interface ITimeService with method GetTimeForTomorrow();
-c)	define the class SimpleTimeService, that implement interface ITimeService. The method GetTimeForTomorrow() have to return the time for shopping just in a day;
-d) map the dependencies in the Startup class, changing its ConfigureServices() method;
-e)	inject dependencies into view to output the time of shopping for tomorrow.
+   - create the folder Services;
+   -	define interface ITimeService with method GetTimeForTomorrow();
+   -	define the class SimpleTimeService, that implement interface ITimeService. The method GetTimeForTomorrow() have to return the time for shopping just in a day;
+   - map the dependencies in the Startup class, changing its ConfigureServices() method;
+   -	inject dependencies into view to output the time of shopping for tomorrow.
 
 
 
@@ -72,11 +72,11 @@ e)	inject dependencies into view to output the time of shopping for tomorrow.
 ![ShoppingCart](/images/7.png)
  
 The page contains controls that you have to define using html-helpers:
-a)	Input boxes;
-b)	DropDown box that receives and contains the list of supermarkets;
-c)	RadioButtons with values according to the today-date. User can choose date to ship order;
-d)	ListBox that receives the keys of dictionary (use ShoppingList);
-e)	‘submit’ input.
+   -	Input boxes;
+   -	DropDown box that receives and contains the list of supermarkets;
+   -	RadioButtons with values according to the today-date. User can choose date to ship order;
+   -	ListBox that receives the keys of dictionary (use ShoppingList);
+   -	‘submit’ input.
 You should consider both (HttpPost and HttpGet) controller methods for this view.
 As the result of submit user might receive the message:
 
