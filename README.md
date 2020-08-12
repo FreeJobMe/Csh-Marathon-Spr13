@@ -86,7 +86,7 @@ As the result of submit user might receive the message:
 
 
 As the result the structure of your project would be as follows:
-![Structure](/images/9.png)
+![Structure](/images/9.PNG)
 
 
 
