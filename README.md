@@ -61,8 +61,9 @@ View contains partial view ‘TimeToBuy’
 You have to:
 1)	Create the folder Services;
 2)	define interface ITimeService with method GetTimeForTomorrow();
-3)	the class SimpleTimeService, that implement interface ITimeService. The method GetTimeForTomorrow() have to return the time for shopping just in a day;
-4)	inject dependencies into view to output the time of shopping for tomorrow.
+3)	define the class SimpleTimeService, that implement interface ITimeService. The method GetTimeForTomorrow() have to return the time for shopping just in a day;
+4) map the dependencies in the Startup class, changing its ConfigureServices() method;
+5)	inject dependencies into view to output the time of shopping for tomorrow.
 
 
 
